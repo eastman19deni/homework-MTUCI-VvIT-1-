@@ -15,8 +15,8 @@ class Car(Vehicle):
     def get_info(self):
         return f"Car: {self.make} {self.model}, Fuel Type: {self.fuel_type}"
 
-vehicle = Vehicle("Make" ,"Model")
+vehicle = Vehicle("tesla" ,"p100")
 print(vehicle.get_info())
 
-car = Car ("Tesla", "BMW", "Ford")
+car = Car ("Tesla", "p100", "electro")
 print(car.get_info())

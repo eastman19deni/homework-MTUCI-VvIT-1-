@@ -16,9 +16,9 @@ class UserAccount:
 user = UserAccount("deni", "deni@mail.ru", "anypassword")
 
 
-user.set_password("new_secure_password")
+user.set_password= str(input("Enter your password:"))
 
 if(user.check_password):
-    print(user.check_password("new_secure_password"))  
+    print(user.check_password("newPassword"))  
 else:
-    print(user.check_password("wrong_password"))       
+    print(user.check_password("incorrect_password"))       
