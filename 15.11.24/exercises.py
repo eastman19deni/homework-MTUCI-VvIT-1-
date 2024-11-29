@@ -65,3 +65,5 @@ tech_manager.add_employee(technician)
 # Получаем информацию о команде
 print("Team Info:")
 print(tech_manager.get_team_info())
+
+# tsests
